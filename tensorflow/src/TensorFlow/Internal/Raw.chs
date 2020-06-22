@@ -16,7 +16,7 @@
 
 module TensorFlow.Internal.Raw where
 
-#include "third_party/tensorflow/c/c_api.h"
+#include "third_party/tensorflow/tensorflow/c/c_api.h"
 
 import Foreign
 import Foreign.C
