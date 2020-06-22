@@ -11,11 +11,11 @@ copyright:           Google Inc.
 category:            Machine Learning
 build-type:          Custom
 cabal-version:       >=1.24
-extra-source-files:  ../third_party/tensorflow/tensorflow/core/example/*.proto
-                   , ../third_party/tensorflow/tensorflow/core/framework/*.proto
-                   , ../third_party/tensorflow/tensorflow/core/lib/core/error_codes.proto
-                   , ../third_party/tensorflow/tensorflow/core/protobuf/*.proto
-                   , ../third_party/tensorflow/tensorflow/core/util/*.proto
+extra-source-files:  third_party/tensorflow/tensorflow/core/example/*.proto
+                   , third_party/tensorflow/tensorflow/core/framework/*.proto
+                   , third_party/tensorflow/tensorflow/core/lib/core/error_codes.proto
+                   , third_party/tensorflow/tensorflow/core/protobuf/*.proto
+                   , third_party/tensorflow/tensorflow/core/util/*.proto
 
 library
   exposed-modules:     Proto.Tensorflow.Core.Example.Example
