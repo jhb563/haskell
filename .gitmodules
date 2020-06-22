@@ -7,3 +7,6 @@
 [submodule "tensorflow-proto/third_party/tensorflow"]
 	path = tensorflow-proto/third_party/tensorflow
 	url = https://github.com/tensorflow/tensorflow.git
+[submodule "tensorflow-opgen/third_party/tensorflow"]
+	path = tensorflow-opgen/third_party/tensorflow
+	url = https://github.com/tensorflow/tensorflow.git
