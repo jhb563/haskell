@@ -19,7 +19,7 @@ copyright:           Google Inc.
 category:            Machine Learning
 build-type:          Simple
 cabal-version:       >=1.22
-extra-source-files: third_party/tensorflow/c/c_api.h
+extra-source-files: ../third_party/tensorflow/tensorflow/c/c_api.h
 
 library
   hs-source-dirs:   src
